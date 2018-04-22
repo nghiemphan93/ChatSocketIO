@@ -61,7 +61,7 @@ socket.on("typing", function(data){
   if(data.message != ""){
     typing.innerHTML = `
       <p>
-        <strong>${data.userName} </strong>is typing
+        <em>${data.userName} is typing</em>
       </p>
     `
   }else{
